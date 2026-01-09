@@ -10,7 +10,7 @@ def load_image(file_path):
     image_array = np.array(cat)
     return image_array
 
-image_path = "file_path.jpg"
+image_path = "/content/my_cat.jpeg"
 img_array = load_image(image_path)
 
 print(type(img_array))
