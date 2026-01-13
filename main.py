@@ -17,4 +17,4 @@ edge_img = edge_detection(clean_image)
 
 edge_binary = edge_img > 50
 
-plt.imshow(edge_binary, cmap="gray")
+plt.imshow('my_edges-2.png', edge_binary, cmap="gray")
