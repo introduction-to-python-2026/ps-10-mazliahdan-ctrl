@@ -6,7 +6,7 @@ from image_utils import load_image, edge_detection
 
 
 
-image = load_image("my_cat.jpeg")
+image = load_image("my_cat.jpg")
 
 
 
